@@ -1,0 +1,154 @@
+$m1: 10px;
+$m2: 15px;
+$m3: 20px;
+
+$p2: 6px;
+$p3: 10px;
+
+$g2: 10px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 0.25rem!important;
+}
+
+.h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mt-1 {
+  margin-top: $m1;
+}
+
+.mb-1 {
+  margin-bottom: $m1;
+}
+
+.mt-2 {
+  margin-top: $m2;
+}
+
+.mb-2 {
+  margin-bottom: $m2;
+}
+
+.mt-3 {
+  margin-top: $m3;
+}
+
+.mb-3 {
+  margin-bottom: $m3;
+}
+
+.ml-2 {
+  margin-left: $m2;
+}
+
+.mr-2 {
+  margin-right: $m2;
+}
+
+.ml-3 {
+  margin-left: $m3;
+}
+
+.mr-3 {
+  margin-right: $m3;
+}
+
+.mx-3 {
+  margin-left: $m3;
+  margin-right: $m3;
+}
+
+.my-3 {
+  margin-top: $m3;
+  margin-bottom: $m3;
+}
+
+.p-2 {
+  padding: $p2;
+}
+
+.p-3 {
+  padding: $p3;
+}
+
+.pt-2 {
+  padding-top: $p2;
+}
+
+.pb-2 {
+  padding-bottom: $p2;
+}
+
+.pt-3 {
+  padding-top: $p3;
+}
+
+.pb-3 {
+  padding-bottom: $p3;
+}
+
+.gap-2 {
+  gap: $g2;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
