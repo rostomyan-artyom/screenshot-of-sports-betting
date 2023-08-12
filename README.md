@@ -14,7 +14,7 @@ npm install -g json-server
 
 ### Run json-server
 ```
-npm install -g json-server
+json-server --watch db.json
 ```
 
 ### Run project
